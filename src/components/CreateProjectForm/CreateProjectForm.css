@@ -1,0 +1,47 @@
+#create-project-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#create-project-form h1 {
+    color: #F3F9E3;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+#create-project-form label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+    padding-right: 15px;
+    color: whitesmoke;  
+}
+
+#create-project-form input {
+    background-color: whitesmoke;
+    height: 2em;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    border: none;
+    width: 400px;
+}
+
+#create-project-form button {
+    background-color: #F9A03F;
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-form-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#project-form-error {
+    color:#F3F9E3;
+    margin: auto;
+}

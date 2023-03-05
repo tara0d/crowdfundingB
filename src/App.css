@@ -1,0 +1,24 @@
+/* #project-list {
+  display: flex;
+  flex-flow: row wrap;
+  /* margin-bottom: 10px; */
+  /* grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  row-gap: 10px; */
+} */
+
+
+/* From tutorial */
+#project-list {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.carousel-div {
+  max-width: 1200;
+  margin-left: 'auto';
+  margin-right: 'auto';
+  margin-top: 64;
+}

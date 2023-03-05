@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#project-title {
+    font-size: 50px;
+    font-family: "Aharoni", Helvetica, sans-serif;
+    margin: 0 0 20px 0;
+}
+
+#project-container {
+    padding: 1%;
+    color: #F3F9E3;
+}
+
+.project-details-container {
+    /* border: 2px solid orange; */
+    width: 90%;
+    margin: auto;
+    /* justify-content: center; */
+}
+
+.project-details-1 {
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.project-details-1 button {
+    background-color: #F9A03F;
+    width: 200px;
+}
+
+.project-details-2 {
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #204E4A;
+}
