@@ -12,7 +12,7 @@ function ProjectCard(props) {
         <div className="project-card">
             <div className="project-card-details">  {/*TO8*/}
                 <Link to={`/project/${projectData.id}`}>
-                    <div>
+                    <div className="box-line">
                         <img src={projectData.thumbnail_image} />
                     </div>
                     <div className="project-card-text">

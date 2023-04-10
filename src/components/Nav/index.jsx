@@ -6,9 +6,11 @@ import "./Nav.css"
 function Nav() {
     return (
         <nav id="navigation">
+            <Link to="/">
             <div id="nav-logo">
                 <img src={logo} alt="check mate logo"></img>
             </div>
+            </Link>
             <div id="nav-links">
                 <div className="nav-links-text">
                     <Link to="/">Home</Link>

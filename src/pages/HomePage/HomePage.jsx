@@ -71,3 +71,21 @@ export default HomePage;
 //             </div>
 //         )
 //     };
+
+// fetch(`${import.meta.env.VITE_API_URL}projects`)    //Don't include / is already included in API url address
+//     .then((results) => {
+//         return results.json();
+//     })
+//     .then((data) => {
+//         setProjectList(data);
+//         console.log(data);
+//         const userId = data.owner;
+//             return fetch(`${import.meta.env.VITE_API_URL}users/${userId}`);
+//         })
+//         .then((results) => {
+//             return results.json();
+//         })
+//         .then((data) => {
+//             setOwner(data.username);
+//             console.log(data);
+//     })
